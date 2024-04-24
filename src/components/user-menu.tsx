@@ -95,17 +95,13 @@ export function UserMenu() {
           </DropdownMenuItem>
           <DropdownMenuSeparator />
           <DropdownMenuItem className="flex-col items-start">
-           
           </DropdownMenuItem>
           <DropdownMenuSeparator />
           {installPrompt && <DropdownMenuItem className="flex-col items-start">
-            
           </DropdownMenuItem>}
           <DropdownMenuSeparator />
           <DropdownMenuItem className="flex-col items-start">
-           
-              {host} <IconCopy />
-            </div>
+            {host} <IconCopy />
           </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
