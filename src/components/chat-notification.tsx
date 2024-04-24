@@ -19,7 +19,7 @@ function getAction(error: ChatError, reset: () => void) {
   }
   if (error.code === ErrorCode.BING_IP_FORBIDDEN) {
     return (
-      <ExternalLink>
+      <ExternalLink href="https://raojialong.space">
         你的服务器或代理已被封禁，请更换服务器或使用代理重试
       </ExternalLink>
     )
